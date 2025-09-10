@@ -15,7 +15,7 @@ public class GymandDietMana {
             frame.setSize(800, 600);
             frame.setLocationRelativeTo(null);
             JPanel panel = new JPanel(new GridLayout(2, 2, 20, 20));
-            panel.setBackground(new Color(255, 223, 186)); // Light peach background
+            panel.setBackground(new Color(255, 223, 186)); 
             JButton btnAdmin = createStyledButton("Admin", new Color(255, 165, 0)); // Orange
             JButton btnTrainer = createStyledButton("Trainer", new Color(0, 128, 0)); // Green
             JButton btnClient = createStyledButton("Client", new Color(255, 255, 0)); // Yellow
@@ -734,6 +734,7 @@ public class GymandDietMana {
     }
 
 }
+
 
 
 
